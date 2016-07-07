@@ -5,7 +5,7 @@
 # Makefile to compile rpmsg_pru_parallel_example.c
 #
 
-obj-m += rpmsg_pru_parallel_example.o
+obj-m += rpmsg_pru_parallel_example.o rpmsg_pru.o
 
 KDIR?=/lib/modules/$(shell uname -r)/build
 
